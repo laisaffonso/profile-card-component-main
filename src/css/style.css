@@ -1,6 +1,6 @@
-.container {
+body {
     background: url(../images/bg-pattern-top.svg) no-repeat top -575px left -325px, url(../images/bg-pattern-bottom.svg) no-repeat bottom -690px right -280px ;
-    background-color: var(--primary-dark);
+    background-color: var(--fundo);
 }
 
 main {
@@ -40,14 +40,14 @@ main {
 
 .container .card .texto-do-perfil {
     padding-bottom: 8px;
-    color: var(--primary-very-dark);
+    color: var(--primary-text);
     font-weight: 700;
     font-size: 18px;
 }
 
 .container .card .idade {
     margin-left: 5px;
-    color: var(--primary-grayish);
+    color: var(--secondary-text);
     font-weight: 400;
 }
 
@@ -55,7 +55,7 @@ main {
     padding-bottom: 30px;
     font-size: 14px;
     font-weight: 400;
-    color: var(--primary-grayish);
+    color: var(--secondary-text);
 }
 
 .container .info {
@@ -63,7 +63,7 @@ main {
     justify-content: space-between;
     margin-bottom: 150px;
     flex-wrap: wrap;
-    border-top: 1px solid var(--neutral-dark);
+    border-top: 1px solid var(--line);
     padding-top: 20px;
 }
 
@@ -77,7 +77,7 @@ main {
 
 .container .card .seguidores, .likes, .fotos {
     font-size: 12px;
-    color: var(--primary-grayish);
+    color: var(--secondary-text);
     font-weight: 400;
 }
 .container .card .quantidade-seguidores, .quantidade-likes, .quantidade-fotos {
